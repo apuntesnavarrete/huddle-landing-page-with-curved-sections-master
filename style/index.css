@@ -178,10 +178,11 @@ max-width: 350px;}
     margin: 20px 0;
   }
   .content-contact {
+    margin-top: 49px;
     max-width: 350px;
     display: grid;
     grid-template-columns: 50px 1fr;
-    grid-template-rows: 163px 50px 76px;
+    grid-template-rows: 36px 50px;
   }
   .icon {
     margin: 4px;
@@ -197,7 +198,6 @@ max-width: 350px;}
     color: var(--white);
     width: 20px;
     height: 20px;
-    border: 1px solid var(--white);
     border-radius: 20px;
     padding: 20px;
     justify-content: center;
@@ -206,7 +206,6 @@ max-width: 350px;}
     transition: all 1s;
   }
   .fa-brands:hover {
-    border: 1px solid var(--Pink);
     transform: scale(1.1);
     color: var(--Pink);
   }
@@ -214,8 +213,10 @@ max-width: 350px;}
     max-width: 375px;
     display: flex;
     flex-direction: column;
-    margin: 60px 0;
+    margin: 20px 0; 
     text-align: center;
+    align-self: start;
+
   }
   .footer_content-social {
     display: flex;
@@ -225,7 +226,47 @@ max-width: 350px;}
     max-width: 375px;
   }
   
+  .fotter_formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    max-width: 350px;
+
+
+
+  }
+  .footer-for_title{
+
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+
+  }
+  .footer-for_description{
+    margin: 30px 0;
+
+  }
+  .footer-for_input{
+    text-align: center;
+  height: 45px;
+  border-radius: 8px;
+  }
+
+  .footer_for_button{
+    margin: 10px 0;
+    width: 50%;
+    height: 45px;
+    border-radius: 8px;
+    align-self: self-end;
+    border: 0px solid var(--black);
+    background-color: var(--Pink);
+    color: var(--Very-Pale-Cyan);
+    cursor: pointer;
+    transition: all 1s;
+    font-weight: 700;
+  }
   
+
   .div-float {
     background-color: var(--white);
     max-width: 350px;
