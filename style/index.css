@@ -95,6 +95,10 @@
   }
 
   .statistics{
+    background-image: url("../images/bg-section-top-mobile-1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     margin-top: 50px;
     width: 100%;
     display: flex;
@@ -121,19 +125,19 @@
 
 }
   .main {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 60px;
   }
 
   .card {
+    padding: 100px 20px;
+
     display: flex;
     flex-direction: column;
-    padding: 20px;
     align-items: center;
     justify-content: center;
-    margin: 25px 0;
     text-align: center;
   }
   .card-title {
@@ -155,18 +159,43 @@
   }
   .card-img {
 max-width: 350px;}
-.one{
-    
+.one , .three{
+    background-color: var(--Very-Pale-Cyan);
+}
+.two {
+  background-image: url("../images/bg-section-bottom-mobile-1.svg") ,
+  url("../images/bg-section-top-mobile-1.svg") ;
+  background-repeat: no-repeat , no-repeat;
+  background-size: contain , contain;
+  background-position: top , bottom;
+
+  
+}
+
+.div-float{
+
+  background-image: url("../images/bg-footer-top-mobile.svg") , url("../images/bg-section-bottom-mobile-1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom , top;
+
+  height: 455px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
   footer {
+    margin-top: -5px;
+    background-color: var(--Very-Dark-Cyan);
+    background-position: 30px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: "Open Sans";
     justify-content: center;
     color: var(--Very-Pale-Cyan);
-    background-color: var(--Very-Dark-Cyan);
   }
   .footer_top {
     max-width: 357px;
@@ -267,19 +296,7 @@ max-width: 350px;}
   }
   
 
-  .div-float {
-    background-color: var(--white);
-    max-width: 350px;
-    height: 160px;
   
-    display: flex;
-    flex-direction: column;
-  
-    border-radius: 20px;
-    padding: 20px;
-  
-    text-align: center;
-  }
   .float_text {
     padding: 10px 0;
   }
