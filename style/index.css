@@ -44,10 +44,9 @@
     border-radius: 40px;
     font-size: 12px;
     padding: 10px;
-    border: 0px solid var(--black);
+    border: 1px solid var(--Pink);
     background-color: var(--white);
-    color: var(--Very-Dark-Cyan);
-    box-shadow: 1px 1px 2px 0px var(--Grayish-Blue);
+    color: var(--Pink);
     cursor: pointer;
     transition: all 1s;
   }
@@ -69,7 +68,7 @@
   }
   .header_description {
     margin-bottom: 40px;
-  
+    font-size: 0.9em;
     font-weight: 400;
     font-family: "Open Sans", sans-serif;
   }
@@ -149,7 +148,9 @@
     font-weight: 400;
     font-family: "Open Sans", sans-serif;
     font-size: 0.9em;
-    color: var(--Grayish-Blue);
+    color: var(--Grayish-Blue);    
+    padding: 0 10px;
+
   }
   .card_fondo-top{
     width: 100%;
@@ -185,6 +186,11 @@ max-width: 350px;}
     align-items: center;
     justify-content: center;
 }
+.float_text {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1.5em;
+}
 
   footer {
     margin-top: -5px;
@@ -196,6 +202,8 @@ max-width: 350px;}
     font-family: "Open Sans";
     justify-content: center;
     color: var(--Very-Pale-Cyan);
+    padding-top: 50px;
+
   }
   .footer_top {
     max-width: 357px;
@@ -245,6 +253,8 @@ max-width: 350px;}
     margin: 20px 0; 
     text-align: center;
     align-self: start;
+    margin: 20px 23px;
+
 
   }
   .footer_content-social {
@@ -297,9 +307,7 @@ max-width: 350px;}
   
 
   
-  .float_text {
-    padding: 10px 0;
-  }
+  
 
   @media (min-width: 1000px) {
     h1 {
